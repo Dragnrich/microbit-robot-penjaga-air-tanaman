@@ -1,24 +1,23 @@
+# Robot Penjaga Air Tanaman (RBT Tahun 6)
 
-> Open this page at [https://dragnrich.github.io/microbit-robot-penjaga-air-tanaman/](https://dragnrich.github.io/microbit-robot-penjaga-air-tanaman/)
+Projek reka bentuk produk mekatronik untuk subjek Reka Bentuk dan Teknologi (RBT) Tahun 6.
 
-## Use as Extension
+## Maklumat Kumpulan
+* **Sekolah:** SK Kota Warisan
+* **Kelas:** 6 UKM
 
-This repository can be added as an **extension** in MakeCode.
+### Ahli Kumpulan:
+1. Adeel
+2. Aqeil
+3. Faiq
+4. Ibrahim
+5. Farouq
 
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/dragnrich/microbit-robot-penjaga-air-tanaman** and import
+## Komponen yang Digunakan
+1. Papan mikropengawal (BBC micro:bit)
+2. Penderia kelembapan tanah (Soil moisture sensor)
+3. Pembaz (Buzzer)
+4. Pemegang bateri AA
 
-## Edit this project
-
-To edit this repository in MakeCode.
-
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **Import** then click on **Import URL**
-* paste **https://github.com/dragnrich/microbit-robot-penjaga-air-tanaman** and click import
-
-#### Metadata (used for search, rendering)
-
-* for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+## Fungsi Projek
+Robot ini berfungsi untuk mengesan tahap kelembapan tanah secara automatik. Apabila penderia mengesan tanah berada dalam keadaan kering, sistem akan mengeluarkan bunyi amaran melalui pembaz (buzzer) dan paparan ikon amaran pada skrin LED micro:bit bagi memberitahu pengguna supaya menyiram tanaman.
