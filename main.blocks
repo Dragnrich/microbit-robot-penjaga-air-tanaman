@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="2e4LU_EZU`U^IL(vZ%-T">moisture</variable></variables><block type="pxt-on-start" id="=-Alx$H;1-|ix_-#8^m`" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="9IYu/`W?xFc{u]1TQnb1"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></statement></block><block type="device_forever" id="CERy6zP%f.J`WE]0r92i" x="244" y="0"><statement name="HANDLER"><block type="controls_if" id="o?c}VQpKeHy|hDP2sS0$"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="w]8H[2vT-D!fq8yr/VH*"><field name="BOOL">TRUE</field></shadow><block type="device_pin_is_pressed" id="c|3e.`dJ_oIwP%NU*!}$"><field name="NAME">TouchPin.P1</field></block></value><statement name="DO0"><block type="device_show_leds" id="hC_h5XdTvWLEE$$Fq+8E"><field name="LEDS">`
+        . . . . . 
+        . . . . # 
+        . . . # . 
+        # . # . . 
+        . # . . .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="twF%^xmgBTd#q3sAB,8f"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field><next><block type="music_playable_play" id=".0XP|vz?IdV,fxx~t!50"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_tone_playable" id="qU[}@=R8/vnjX2r:m?;@"><value name="note"><shadow type="device_note" id="hq0G)3eK}qfv/~)rA+ay"><field name="name">262</field></shadow></value><value name="duration"><shadow type="device_beat" id="`8;8Nw:,/G5k?/QYRO@|"><field name="fraction">BeatFraction.Double</field></shadow></value></shadow></value><next><block type="servoservosetangle" id="~%`x=s#y*JNz=;,od,WP"><field name="servo">servos.P2</field><value name="degrees"><shadow type="protractorPicker" id="aXWZ/1iUbt4IHF|B$r)N"><field name="angle">180</field></shadow></value><next><block type="device_pause" id="~|CxFn|10w6v#wy@.ghV"><value name="pause"><shadow type="timePicker" id="T59i~F|qrjgRA;V3wd;i"><field name="ms">1000</field></shadow></value><next><block type="servoservosetangle" id="/yoB)ns4sLpC75{3a]0}"><field name="servo">servos.P2</field><value name="degrees"><shadow type="protractorPicker" id="M6v8^|y]2$lx0$zlv=S]"><field name="angle">0</field></shadow></value></block></next></block></next></block></next></block></next></block></statement></block></statement></block></xml>
