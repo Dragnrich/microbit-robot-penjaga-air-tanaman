@@ -1,10 +1,10 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="2e4LU_EZU`U^IL(vZ%-T">moisture</variable></variables><block type="pxt-on-start" id="=-Alx$H;1-|ix_-#8^m`" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="9IYu/`W?xFc{u]1TQnb1"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="2e4LU_EZU`U^IL(vZ%-T">moisture</variable></variables><block type="pxt-on-start" id="=-Alx$H;1-|ix_-#8^m`" x="20" y="20"><statement name="HANDLER"><block type="device_show_leds" id="9IYu/`W?xFc{u]1TQnb1"><field name="LEDS">`
         . . . . . 
         . # . # . 
         . . . . . 
         # . . . # 
         . # # # .
-        `</field></block></statement></block><block type="device_forever" id="CERy6zP%f.J`WE]0r92i" x="244" y="0"><statement name="HANDLER"><block type="controls_if" id="o?c}VQpKeHy|hDP2sS0$"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="w]8H[2vT-D!fq8yr/VH*"><field name="BOOL">TRUE</field></shadow><block type="device_pin_is_pressed" id="c|3e.`dJ_oIwP%NU*!}$"><field name="NAME">TouchPin.P1</field></block></value><statement name="DO0"><block type="device_show_leds" id="hC_h5XdTvWLEE$$Fq+8E"><field name="LEDS">`
+        `</field></block></statement></block><block type="device_forever" id="CERy6zP%f.J`WE]0r92i" x="264" y="20"><statement name="HANDLER"><block type="controls_if" id="o?c}VQpKeHy|hDP2sS0$"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="w]8H[2vT-D!fq8yr/VH*"><field name="BOOL">TRUE</field></shadow><block type="device_pin_is_pressed" id="c|3e.`dJ_oIwP%NU*!}$"><field name="NAME">TouchPin.P1</field></block></value><statement name="DO0"><block type="device_show_leds" id="hC_h5XdTvWLEE$$Fq+8E"><field name="LEDS">`
         . . . . . 
         . . . . # 
         . . . # . 
